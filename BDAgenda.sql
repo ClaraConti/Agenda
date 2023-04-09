@@ -23,5 +23,6 @@ insert into AgendaContactos (idContacto,Nombre,Telefono,Celular,Email,Fecha)
 values(1, 'Pedro Picapiedra','+51 222111','+51 963852741','pedropicapiedra@gmail.com', '16-12-1986'),
       (2,'Pablo Marmol','+51 221133','+51 987654321','pablomarmol@gmail.com', '22-08-1993'),
 	  (3,'Vilma Grava','+51 223311','+51 951874236','vilmagrava@gmail.com', '06-04-1996'),
-	  (4,'Betty Caliza','+51 224433','+51 951632478','vilmacaliza@gmail.com','10-07-1999')
+	  (4,'Betty Caliza','+51 224433','+51 951632478','vilmacaliza@gmail.com','10-07-1999'),
+	  (5,'Betty Sara','+51 224432','+51 981632478','vilmasara@gmail.com','10-08-1999')
 
