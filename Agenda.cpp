@@ -680,7 +680,7 @@ void CargarContactos(struct Agenda Contactos[]){
 			ContactosRegistrados++;
 			
 			/*Cuarto contacto*/
-			Contactos[ContactosRegistrados].Nombre 			= "Betty Caliza";
+			Contactos[ContactosRegistrados].Nombre 			= "Betty Clariza";
 			Contactos[ContactosRegistrados].Telefono 		= "+51 224433";
 			Contactos[ContactosRegistrados].Celular 		= "+51 951632478";
 			Contactos[ContactosRegistrados].Email 			= "vilmacaliza@gmail.com";
