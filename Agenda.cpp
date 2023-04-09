@@ -1,8 +1,3 @@
-//git stataussjhfdskjgfhs
-
-
-
-
 /*****************************
  Librer�as utilizadas
 *****************************/
@@ -237,7 +232,7 @@ void Insertar(struct Agenda Contactos[]){
 				
 				switch (x){
 					case 1: 
-						// volvemos a InsertarMenu
+						Insertar(Contactos);
 						break;
 					case 2:
 						Detenerse();
@@ -275,7 +270,7 @@ void Insertar(struct Agenda Contactos[]){
 			
 			switch (x){
 				case 1: 
-					// volvemos a InsertarMenu
+					Insertar(Contactos);
 					break;
 				case 2:
 					Detenerse();
