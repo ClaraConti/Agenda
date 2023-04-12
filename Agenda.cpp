@@ -232,7 +232,7 @@ void Insertar(struct Agenda Contactos[]){
 				
 				switch (x){
 					case 1: 
-						// volvemos a InsertarMenu
+						Insertar(Contactos);
 						break;
 					case 2:
 						Detenerse();
@@ -270,7 +270,7 @@ void Insertar(struct Agenda Contactos[]){
 			
 			switch (x){
 				case 1: 
-					// volvemos a InsertarMenu
+					Insertar(Contactos);
 					break;
 				case 2:
 					Detenerse();
@@ -680,7 +680,7 @@ void CargarContactos(struct Agenda Contactos[]){
 			ContactosRegistrados++;
 			
 			/*Cuarto contacto*/
-			Contactos[ContactosRegistrados].Nombre 			= "Betty Caliza";
+			Contactos[ContactosRegistrados].Nombre 			= "Betty Clariza";
 			Contactos[ContactosRegistrados].Telefono 		= "+51 224433";
 			Contactos[ContactosRegistrados].Celular 		= "+51 951632478";
 			Contactos[ContactosRegistrados].Email 			= "vilmacaliza@gmail.com";
